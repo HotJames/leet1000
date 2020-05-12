@@ -2,15 +2,24 @@ package main
 
 import (
 	"fmt"
-	"leet1000/int_reverse"
+	"reflect"
 )
 
 /* for test */
 func main() {
-	n := 123
 
-	testRes := int_reverse.Reverse(n)
+	//testRes :=
+	//is_palindrome.IsPalindrome(n)
 	//is_happy.IsHappy(n)
 	//fmt.Println(testRes)
-	fmt.Println(testRes)
+	//fmt.Println(testRes)
+
+	s := []string{"flower", "flow", "flight"}
+	temp := []int{}
+	for _, i := range s {
+		for _, j := range i {
+
+		}
+	}
+
 }

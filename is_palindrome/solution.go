@@ -25,4 +25,4 @@ func IsPalindrome(x int) bool {
 
 }
 
-/*第二种数组前后位置比较*/
+/*还有第二种，数组前后位置比较*/
