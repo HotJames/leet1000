@@ -15,11 +15,16 @@ func main() {
 	//fmt.Println(testRes)
 
 	s := []string{"flower", "flow", "flight"}
-	temp := []int{}
-	for _, i := range s {
-		for _, j := range i {
 
-		}
+	for i := 0; i ++ {
+
+	}
+
+	for  _, i := range s{
+		for _, j := range []byte(i){
+		fmt.Println(j)
+		fmt.Println(reflect.TypeOf(j))
+	}
 	}
 
 }
