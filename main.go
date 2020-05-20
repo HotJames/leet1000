@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"leet1000/num_guess"
+	"leet1000/product_sum"
 )
 
 /* for test */
 func main() {
 
-	testRes := num_guess.Game([]int{1, 2, 3}, []int{1, 2, 3})
+	testRes := product_sum.SubtractProductAndSum(234)
 	//is_happy.IsHappy(n)
 	fmt.Println(testRes)
 
