@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"leet1000/product_sum"
+	"leet1000/min_count"
 )
 
 /* for test */
 func main() {
 
-	testRes := product_sum.SubtractProductAndSum(234)
+	testRes := min_count.MinCount([]int{4, 2, 1})
 	//is_happy.IsHappy(n)
 	fmt.Println(testRes)
 

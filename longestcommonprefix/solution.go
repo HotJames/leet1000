@@ -1,5 +1,6 @@
 package longestcommonprefix
 
+/*TODO*/
 //func longestCommonPrefix(strs []string) string {
 //
 //	pre := ""
