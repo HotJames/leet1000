@@ -19,15 +19,12 @@ func Reverse(x int) int {
 	for x > 0 {
 
 		temp := x % 10
-
 		y = y*10 + temp
-
 		x = x / 10
 
 	}
 
 	y = sign * y
-
 	if y > math.MaxInt32 || y < math.MinInt32 {
 		return 0
 	}
