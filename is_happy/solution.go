@@ -1,10 +1,5 @@
 package is_happy
 
-import (
-	"fmt"
-)
-
-/*TODO */
 func IsHappy(n int) bool {
 
 	site := 1
@@ -13,6 +8,5 @@ func IsHappy(n int) bool {
 		site += 1
 	}
 
-	fmt.Println(site)
 	return false
 }

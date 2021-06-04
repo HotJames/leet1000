@@ -2,7 +2,7 @@ package defang_ip
 
 import "strings"
 
-func DefangIPaddr(address string) string {
+func DeFangIPAddr(address string) string {
 
 	return strings.Replace(address, ".", "[.]", -1)
 

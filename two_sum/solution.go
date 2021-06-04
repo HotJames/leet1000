@@ -1,5 +1,6 @@
 package two_sum
 
+// TwoSum 两数之和
 func TwoSum(nums []int, target int) []int {
 
 	idNumMap := make(map[int]int)
