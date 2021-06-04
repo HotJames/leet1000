@@ -2,6 +2,7 @@ package is_palindrome
 
 import "strconv"
 
+// IsPalindrome 回文数
 func IsPalindrome(x int) bool {
 	if x < 0 {
 		return false
